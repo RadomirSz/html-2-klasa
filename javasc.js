@@ -46,5 +46,20 @@ function nan()
 function pisz()
 {
     document.write("hejo");
+    document.write("<br><b>witaj</b><br>");
+    document.write('<input type="button" onClick="mnozenie()" value="pomnożę">');
+
+}
+
+function odnies1()
+{
+    document.write("siemka");
+    window.location.href="html2.html";
+
+}
+function odnies2()
+{
+    document.write("cześć");
+    window.location.href="html1.html";
 
 }
