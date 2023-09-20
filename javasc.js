@@ -42,3 +42,9 @@ function nan()
     "iloczyn liczb wynosi: "+wynik;
     alert(metoda);
 }
+
+function pisz()
+{
+    document.write("hejo");
+
+}
