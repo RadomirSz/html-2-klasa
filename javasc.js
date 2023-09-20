@@ -31,3 +31,14 @@ function odejmowanie()
     alert("ich różnica to: " + a-b);
 
 }
+
+function nan()
+{
+    let a = prompt("podaj liczbe","");
+    let b = prompt("podaj liczbe","");
+    let wynik = (a*b)? a*b:a*b;
+    let metoda = (isNaN(wynik))?
+    "tylko liczby podawaj ":
+    "iloczyn liczb wynosi: "+wynik;
+    alert(metoda);
+}
