@@ -63,3 +63,24 @@ function odnies2()
     window.location.href="html1.html";
 
 }
+
+function iff()
+{
+    a = prompt("podaj liczbe","");
+    if(a>9) {alert("to nie cyfra");}
+    if(a<10 && a>-1) {alert("to cyfra");}
+}
+
+function  login()
+{
+    let login = prompt("Podaj login: ","")
+    let password = prompt("Podaj hasło: ","")
+    if(login=="72343" && password=="hojemaslo")
+    {
+        document.write("<body><h1>siema dobre hasło podałeś</h1></body>");
+    }
+    else
+    {
+        alert("zły login lub hasło");
+    }
+}
