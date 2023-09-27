@@ -104,6 +104,14 @@ function szyfrbar()
 {
     let loginB = prompt("Podaj login: ","")
     let passwordB = prompt("Podaj hasło: ","")
-    let haslo
+    let haslo=password.charCodeAt(0);
+    if(login=="admin" && haslo==56)
+    {
+        document.write("łał okok")
+    }
+    else
+    [
+        alert("zly login lub haslo")
+    ]
 
 }
