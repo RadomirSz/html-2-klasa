@@ -70,12 +70,19 @@ function iff()
     if(a>9) {alert("to nie cyfra");}
     if(a<10 && a>-1) {alert("to cyfra");}
 }
+let loginP;
+let passwordP;
+function tworz()
+{
+    loginP = prompt("utworz login: ","")
+    passwordP = prompt("utworz hasło: ","")
+}
 
 function  login()
 {
     let login = prompt("Podaj login: ","")
     let password = prompt("Podaj hasło: ","")
-    if(login=="72343" && password=="hojemaslo")
+    if(login==loginP && password==passwordP)
     {
         document.write("<body><h1>siema dobre hasło podałeś</h1></body>");
     }
@@ -83,10 +90,20 @@ function  login()
     {
         alert("zły login lub hasło");
     }
+    
 }
 
 function szyfrowanie()
 {
     let litera = prompt("podaj jeden znak do zaszyfrowania","")
     alert(litera.charCodeAt(0))
+}
+
+
+function szyfrbar()
+{
+    let loginB = prompt("Podaj login: ","")
+    let passwordB = prompt("Podaj hasło: ","")
+    let haslo
+
 }
