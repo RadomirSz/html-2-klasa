@@ -84,3 +84,9 @@ function  login()
         alert("zły login lub hasło");
     }
 }
+
+function szyfrowanie()
+{
+    let litera = prompt("podaj jeden znak do zaszyfrowania","")
+    alert(litera.charCodeAt(0))
+}
