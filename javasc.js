@@ -131,3 +131,17 @@ function wypadki()
             break;
     }
 }
+
+function wyliczanie()
+{
+    for(i=0;i<10;i++){document.write(i + "<br>");}
+    document.write("<br>");
+    let j = 10;
+    while(j>0){document.write(j + "<br>"); j--;}
+    let d = 0;
+    do{
+        document.write("kocham cię: " + d + "<br>");
+        d++;
+    }
+    while(d<101)
+}
