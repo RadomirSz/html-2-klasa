@@ -134,14 +134,36 @@ function wypadki()
 
 function wyliczanie()
 {
-    for(i=0;i<10;i++){document.write(i + "<br>");}
+    let temp = "";
+    for(i=0;i<10;i++)
+    {
+        document.write(i + "<br>");
+        temp += i + "\n";
+    }
+    alert(temp);
+
     document.write("<br>");
     let j = 10;
+    
     while(j>0){document.write(j + "<br>"); j--;}
+    
     let d = 0;
     do{
-        document.write("kocham cię: " + d + "<br>");
-        d++;
+        document.write("miłego dnia :D <br>");
+        d++;   
+        
     }
     while(d<101)
+}
+
+function potegi()
+{
+    let p = prompt("liczba: ","");
+    let w = prompt("potęga: ","");
+    let liczba = p;
+    for(let i=0;i<w-1;i++)
+    {
+        liczba = liczba * p;
+    }
+    alert(liczba);
 }
