@@ -115,3 +115,19 @@ function szyfrbar()
     ]
 
 }
+
+function wypadki()
+{
+    switch(prompt("podaj imię: ", ""))
+    {
+        case "Radomir":
+            alert("w bolierze nie ma żadnej bobmy")
+            break;
+        case "Kacper":
+            alert("zobaczymy jak bomba pierdolnie")
+            break;
+        default:
+            alert("bajo jajo")
+            break;
+    }
+}
