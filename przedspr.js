@@ -24,3 +24,4 @@ function charcode()
     let litera = prompt("podaj jeden znak do zaszyfrowania","")
     alert(litera.charCodeAt(0))
 }
+// do{} while() switch case'': break; default break;
