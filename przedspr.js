@@ -19,7 +19,8 @@ function nan()
     {alert("liczba")}
 }
 
-function czerwone()
+function charcode()
 {
-    document.write("<a style=\"color:red;\">siema</a>");
+    let litera = prompt("podaj jeden znak do zaszyfrowania","")
+    alert(litera.charCodeAt(0))
 }
