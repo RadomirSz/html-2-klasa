@@ -66,7 +66,7 @@ function odnies2()
 
 function iff()
 {
-    a = prompt("podaj liczbe","");
+    let a = prompt("podaj liczbe","");
     if(a>9) {alert("to nie cyfra");}
     if(a<10 && a>-1) {alert("to cyfra");}
 }
@@ -151,7 +151,6 @@ function wyliczanie()
     do{
         document.write("miłego dnia :D <br>");
         d++;   
-        
     }
     while(d<101)
 }
