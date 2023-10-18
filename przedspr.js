@@ -25,3 +25,23 @@ function charcode()
     alert(litera.charCodeAt(0))
 }
 // do{} while() switch case'': break; default break;
+
+function zadaniepow()
+{
+    let a = prompt("daj coś","");
+
+    if(isNaN(a)) alert("nie numer (a)");
+    else alert("numer (a)"); 
+
+    let b = prompt("daj coś","");
+
+    if(isNaN(b)) alert("nie numer (b)");
+    else alert("numer (b)");
+}
+
+function potwierdz()
+{
+    let huj = confirm("CIASTECZKA");
+    if(huj) alert("witamy");
+    else alert(":( nie chcesz ciasteczek?");
+}
