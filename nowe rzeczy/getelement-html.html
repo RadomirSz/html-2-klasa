@@ -5,36 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>getelement</title>
     <script src="getelement.js"></script>
-
+    
     <style>
         .div2{
-            padding-top: 10vh;
+            padding-top: 15vh;
             height: 90vh;
             width: 50vw;
-            font-size: xx-large;
+            font-size: 150px;
+            text-align: center;
+            color:aqua;
+            background-color: black;
         }
         .div1{
+            background-color: aqua;
             height: 100vh;
-            width: 20vw;
+            width: 50vw;
+            text-align: center;
+            padding-top: 20vh;
         }
         body{
             display: flex;
+            margin: 0px;
         }
     </style>
 </head>
 <body>
     <!-- <input type="text" name="nazwa pola" id="pole1">
     <input type="button" value="wyślij" onclick="formularz()"> -->
-
-    <div class="div1">
-    <p>daj boki prostokąta:</p>
+    <!-- <div class="div1">
+    <p>Daj boki prostokąta:</p>
     <input type="text" name="nazwa pola" id="bok1"><br>
     <input type="text" name="nazwa pola" id="bok2"><br>
     <input type="button" value="wyślij" onclick="oblicz()">
     </div>
+        <div class="div2" id="div2">
+    </div> -->
 
-    <div class="div2" id="div2">
-
-    </div>
+    <fieldset>
+        <legend>Wybierz</legend>
+        <input type="radio" value="A" name="radio" checked> A
+        <input type="radio" value="B" name="radio"> B
+        <input type="radio" value="C" name="radio"> C
+        <br>
+        <input type="button" value="wyślij" onclick="wybor()">
+    </fieldset>
 </body>
 </html>
