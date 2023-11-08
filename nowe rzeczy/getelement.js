@@ -23,3 +23,26 @@ function wybor()
     }
     alert(v);
 }
+
+function wybor2()
+{
+    let f = document.getElementsByName("checkbox");
+    let v = "";
+    for (let i = 0; i < f.length; i++)
+    {
+        if(f[i].checked)
+        {
+            v += f[i].value + " ";
+        }
+    }
+    if(v == '') v = "nic nie zaznaczyłeś";
+    alert(v);
+}
+
+function wybor3()
+{
+    var s = document.getElementById("ssaki");
+    alert("value ma wartość: " + s.value);
+    alert("selectedindex zwraca wartość: " + s.selectedIndex);
+    alert("length zwraca wartość: " + s.length);
+}
