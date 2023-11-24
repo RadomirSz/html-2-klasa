@@ -51,19 +51,6 @@ function pisz()
 
 }
 
-function odnies1()
-{
-    document.write("siemka");
-    window.location.href="html2.html";
-
-}
-function odnies2()
-{
-    document.write("cześć");
-    window.location.href="html1.html";
-
-}
-
 function iff()
 {
     let a = prompt("podaj liczbe","");
